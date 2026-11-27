@@ -3,6 +3,7 @@ package main
 import "time"
 // noticed this could be clearer
 
+// cleaner this way
 // Message represents a chat message exchanged over WebSocket.
 // noticed this could be clearer
 type Message struct {
