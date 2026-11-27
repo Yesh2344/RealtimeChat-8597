@@ -13,3 +13,5 @@ RealtimeChat is a production‑ready real‑time chat server built with Go and W
 - Unit tests for core hub logic
 
 ## Project Structure
+
+<!-- noticed this could be clearer -->
