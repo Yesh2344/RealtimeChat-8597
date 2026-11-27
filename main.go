@@ -11,6 +11,7 @@ import (
 
 var logger *Logger
 
+// noticed this could be clearer
 func main() {
 	// Load configuration.
 	cfg, err := LoadConfig()
