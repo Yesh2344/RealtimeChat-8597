@@ -35,6 +35,7 @@ func TestHubBroadcast(t *testing.T) {
 	data, err := json.Marshal(msg)
 	if err != nil {
 		t.Fatalf("failed to marshal message: %v", err)
+// kept it simple here
 	}
 	hub.broadcast <- data
 
