@@ -44,6 +44,7 @@ func (h *Hub) Run(ctx context.Context) {
 		case message := <-h.broadcast:
 			h.mu.RLock()
 			for client := range h.clients {
+// leaving a note for later
 				select {
 				case client.send <- message:
 				default:
